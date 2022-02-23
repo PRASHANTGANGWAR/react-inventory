@@ -1,0 +1,15 @@
+
+body {
+    background-color: #e6e6e6 !important;
+    background-image: none;
+}
+
+.custom-button {
+    background-color: rgb(94, 53, 177) !important;
+    box-shadow: 1px 2px 3px #aaa;
+}
+.custom-button:hover {
+    background-color: rgb(177, 103, 53) !important;
+    box-shadow: 1px 2px 3px #aaa;
+    transition: ease-in;
+}

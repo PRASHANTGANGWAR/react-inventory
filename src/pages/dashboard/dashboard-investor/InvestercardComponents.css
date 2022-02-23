@@ -1,0 +1,22 @@
+.invester-container {
+  overflow-y: hidden;
+  width: 99% !important;
+  max-width: 99% !important;
+  margin: 0 auto;
+}
+
+.invester-card {
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: none;
+  background-color: orangered;
+  border-radius: 20px !important;
+  border: 1px solid rgba(144, 202, 249, 0.46);
+  color: #383838;
+  position: relative;
+  padding: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.invester-bid-btn {
+  background-color: rgb(94, 53, 177) !important;
+}

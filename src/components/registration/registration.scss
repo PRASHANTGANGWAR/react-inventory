@@ -1,0 +1,17 @@
+.hero-image-registration{
+    width: 40%;
+    margin-right: 4em;
+    height: 50%;
+    margin-top: 3em;
+    border-radius: 1em;
+}
+
+@media only screen and (max-width: 1080px) {      
+    .paperLoginBox {
+      width: 280px;
+    }
+
+    .hero-image-registration{
+        display: none;
+    }
+  }

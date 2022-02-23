@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #007fa3;
+}
+
+.container-login {
+  display: flex;
+  justify-content: space-between;
+  //   text-align: left;
+  .left-col-login {
+    margin: -2.5em 3em 0 5em; //in case of banner image
+
+    .heading-login {
+      color: black;
+      span {
+        color: var(--primary-color);
+      }
+    }
+  }
+}
+
+.hero-image-login {
+  width: 50%;
+  margin-right: 2em;
+  height: 50%;
+  margin-top: 3em;
+  border-radius: 1em;
+}
+
+.login-Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paperLoginBox {
+  padding: 25px;
+  width: 380px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(97, 97, 97);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-image: none;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(144, 202, 249, 0.46);
+  // box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.paperLoginBox .avatarStyle {
+  background: deepOrange;
+  text-align: center;
+}
+.paperLoginBox h5 {
+  color: #ff5722;
+  font-family: "Lobster", cursive;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.avtarStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+.credentials {
+  color: lightgray;
+}
+
+.btn-sign {
+  background-color:  var(--primary-color);
+  margin-bottom: 20px;
+//   font-weight: bold;
+}
+// footer {
+//     height: 3em;
+//     text-align: center;
+//     margin-top: 2.5em;
+//     padding-top: 2em;
+//     background-color: white;
+//   }
+@media only screen and (max-width: 600px) {
+
+  .paperLoginBox {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {      
+    .paperLoginBox {
+      width: 280px;
+    }
+
+    .hero-image-login{
+        display: none;
+    }
+  }
+
+//   @media only screen and (min-width: 1080px) {
+//     .navbar {
+//       .container {
+//         width: 1080px;
+//         margin: 0 auto;
+//       }
+//     }
+
+//     .hero .container {
+//         display: flex;
+//         justify-content: space-between;
+//         // text-align: left;
+    
+//         .left-col {
+//           margin: 5em 3em 0 5em;      // margin: 7em 3em 0 5em;  in case of banner
+    
+//           h1 {
+//             font-size: 3em;
+//             // width: 90%;
+//           }
+//         }
+//       }
+    
+//       .hero-image {
+//         width: 50%;
+//         margin-right: 2em;
+//         height: 50%;
+//         margin-top: -2em;
+//         border-radius: 1em;
+//       }
+
+//   }
